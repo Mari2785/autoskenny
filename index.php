@@ -51,8 +51,6 @@
           <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
           <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
           <li><a class="nav-link scrollto" href="#why-us">¿Por qué nosotros?</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
-          <li><a class="getstarted scrollto" href="#about">Comenzar</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -447,9 +445,9 @@
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
-        <div class="row">
+        <div class="row mx-auto">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <div class="footer-info">
               <h3>Autos Kenny</h3>
               <p>
@@ -465,23 +463,19 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4></h4>
+          <div class="col-lg-4 col-md-6 footer-links">
+        
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#hero">Inicio</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">Nosotros</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#services">Servicios</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4></h4>
-            <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#why-us">Porque Nosotros?</a></li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4></h4>
+
+         
+          <div class="col-lg-4 col-md-6 footer-links">
+       
             <ul>
               <li><i class="bx bx-chevron-right"></i>Horarios</li>
               <li><i class="bx bx-chevron-right"></i>Lunes a Viernes 9:00 a 19:00</li>
