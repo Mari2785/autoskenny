@@ -601,6 +601,7 @@ section {
 .about .image {
   background-image: url("../img/clients/kenny.png");
   background-size: cover;
+  background-position: center;
   min-height: 410px;
   
 }

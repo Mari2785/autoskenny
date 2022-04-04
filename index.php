@@ -20,7 +20,7 @@
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
+  <!--CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -30,15 +30,10 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
     integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 
-  <!-- Template Main CSS File -->
+
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Groovin - v4.0.1
-  * Template URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
@@ -48,8 +43,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <h1 class="logo"><a href="index.php"> Autos Kenny</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+   
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -136,7 +130,9 @@
       <div class="container">
 
         <div class="row no-gutters">
-          <div class="image  col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start p-2"></div>
+          <div class="col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start p-2"> 
+            <img src="assets/img/clients/kenny.png" alt="">
+          </div>
           <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center p-4">
               <h3>Quienes somos!</h3>
@@ -444,67 +440,7 @@
     </section><!-- End why-us Section -->
 
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
 
-        <div class="section-title">
-          <h2>Contacto</h2>
-          <p>Consúltenos, nos comunicaremos con usted a la mayor brevedad posible.</p>
-        </div>
-
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="bi bi-geo-alt"></i>
-              <h3>Dirección</h3>
-              <address>​​​​​​​Av. San Juan  - Boedo - C.A.B.A. (1233)</address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="bi bi-phone"></i>
-              <h3>Telefono</h3>
-              <p><a href="tel:+5491163612061">(011) 63612061</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="bi bi-envelope"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:kennf2k@gmail.com">kennf2k@gmail.com</a></p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="form">
-          <form method="POST" action="confirmacion.php">
-            <div class="row">
-
-              <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre">
-              </div>
-              <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-              </div>
-            </div>
-            <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto">
-            </div>
-            <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Mensaje"></textarea>
-            </div>
-            
-            <div class="text-center p-3"><button type="submit"  class="btn btn-success">Enviar</button></div>
-          </form>
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 <!-- ======= Footer ======= -->
@@ -518,8 +454,9 @@
               <h3>Autos Kenny</h3>
               <p>
                 Av. San Juan  - Boedo - C.A.B.A. (1233) <br>
-                <strong>Telefono:</strong> (011) 63612061<br>
-                <strong>Email:</strong> kennf2k@gmail.com<br>
+                <strong><a href="mailto:kennf2k@gmail.com" target="_blank"> Envíanos un Email</a></strong><br>
+                <strong><a href="https://api.whatsapp.com/send?phone=1163612061">Mensaje WhatsApp</a></strong><br>
+         
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -541,7 +478,6 @@
             <h4></h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#why-us">Porque Nosotros?</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contacto</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 footer-links">
